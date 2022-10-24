@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.map{
+    background-image: url("./assets/desktop/image-map@2x.png") ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 90vh;
+}
+
+.arrow, 
+.link {
+    align-items: center;
+    display: flex;
+    height: 4.5rem;
+
+}
+
+.arrow {
+    background-color:#D5966C;
+    justify-content: center;
+    width: 3.5rem;
+}
+
+.link {
+    background-color: #141414;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 16.25rem;
+}
+
+.link a {
+    color: white;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: 3.64px;
+    line-height: 1.49625rem;
+ 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.link:hover,
+.link:hover .arrow {
+    transition: all .3s ease-out;
+}
+
+.link:hover {
+    background-color: #D5966C;
+}
+
+.link:hover .arrow {
+    background-color: #141414;
+}
+
+.section-wraper{
+    background-color: #141414;
+    display: grid;
+    grid-template-columns:auto auto;
+    
+    justify-content: space-around;
+    align-items: center;
+    
+    height: 80vh;
+}
+.our{
+   
+    width: 350px;
+    font-family: 'Big Shoulders Display';
+font-style: normal;
+font-weight: 900;
+font-size: 70px;
+line-height: 70px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.textone{
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #D5966C;
+}
+.texttwo{
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 32px;
+color: #FFFFFF;
+
+}
+.textthree{
+    width: 540px;
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 32px;
+color: #FFFFFF;
+}
+/* footer */
+.footer-wraper{
+    width: 100%;
+    background-color: #D5966C;
+    height: 12ch;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    .about{
+        width: 430px;
+    }
+    .about p{
+        max-width: 100%;
+        font-family: 'Outfit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF; 
+    }
+    .social{
+        width: 100px;
+        display: flex;
+        justify-content: space-around;
+    }

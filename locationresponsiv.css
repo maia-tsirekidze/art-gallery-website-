@@ -1,0 +1,84 @@
+
+@media (max-width:990px){
+    .section-wraper{
+        background-color: #141414;
+        display: flex;
+        
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 80vh;
+    }
+    .our{
+       
+        
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        
+    }
+    
+    .textone{
+        font-family: 'Big Shoulders Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: #D5966C;
+    }
+    .texttwo{
+        font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+    
+    }
+    .textthree{
+        width: 540px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FFFFFF;
+    }
+}
+
+@media (max-width:660px){
+    
+        .footer-wraper{
+            
+            width: 100%;
+            background-color: #D5966C;
+            height: 30ch;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            
+            }
+            .about{
+                width: 430px;
+            }
+            .about p{
+                max-width: 100%;
+                font-family: 'Outfit';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 28px;
+                color: #FFFFFF; 
+            }
+            .social{
+                width: 100px;
+                display: flex;
+                justify-content: space-around;
+               
+            }
+}
