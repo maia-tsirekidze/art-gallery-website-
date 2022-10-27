@@ -61,7 +61,6 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
-            
             }
             .about{
                 width: 430px;
@@ -73,12 +72,21 @@
                 font-weight: 300;
                 font-size: 18px;
                 line-height: 28px;
-                color: #FFFFFF; 
+                color: #000; 
             }
             .social{
                 width: 100px;
+                
                 display: flex;
                 justify-content: space-around;
                
+            }
+            .fa-brands{
+                width: 50px;
+              color: #000;
+              transition: all;
+            }
+            .fa-brands:hover{
+             color: #fff;
             }
 }

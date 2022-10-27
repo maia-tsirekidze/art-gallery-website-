@@ -251,7 +251,7 @@ padding-bottom: 32px;
 .footer-wraper{
 width: 100%;
 background-color: #151515;
-height: 12ch;
+height: 22ch;
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -272,4 +272,14 @@ align-items: center;
     width: 100px;
     display: flex;
     justify-content: space-around;
+    cursor: pointer;
+
+}
+.fa-brands{
+    width: 50px;
+  color: white;
+  transition: all;
+}
+.fa-brands:hover{
+ color: #D5966C;
 }

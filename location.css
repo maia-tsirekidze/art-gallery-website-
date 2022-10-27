@@ -6,7 +6,7 @@
 .map{
     background-image: url("./assets/desktop/image-map@2x.png") ;
    background-repeat: no-repeat;
-   background-size: cover;
+    background-size: cover;
    height: 90vh;
 }
 
@@ -92,7 +92,7 @@ font-style: normal;
 font-weight: 300;
 font-size: 22px;
 line-height: 32px;
-color: #FFFFFF;
+color: #fff;
 
 }
 .textthree{
@@ -102,13 +102,13 @@ font-style: normal;
 font-weight: 300;
 font-size: 22px;
 line-height: 32px;
-color: #FFFFFF;
+color: #fff;
 }
 /* footer */
 .footer-wraper{
     width: 100%;
     background-color: #D5966C;
-    height: 12ch;
+    height: 22ch;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -124,10 +124,18 @@ color: #FFFFFF;
         font-weight: 300;
         font-size: 18px;
         line-height: 28px;
-        color: #FFFFFF; 
+        color: #000; 
     }
     .social{
         width: 100px;
         display: flex;
         justify-content: space-around;
+    }
+    .fa-brands{
+        width: 50px;
+      color: #000;
+      transition: all;
+    }
+    .fa-brands:hover{
+     color: #fff;
     }
